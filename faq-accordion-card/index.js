@@ -12,7 +12,7 @@ function hideAnswer(answer) {
 
 document.getElementById('q1').addEventListener('click', function () {
     if (document.getElementById('a1').classList.contains('hidden')) {
-        if (document.querySelector('.shown') != null) {
+        if (document.querySelector('.shown') !== null) {
             hideAnswer(document.querySelector('.shown'));
         }
         showAnswer(document.getElementById('a1'));
@@ -23,7 +23,7 @@ document.getElementById('q1').addEventListener('click', function () {
 
 document.getElementById('q2').addEventListener('click', function () {
     if (document.getElementById('a2').classList.contains('hidden')) {
-        if (document.querySelector('.shown') != null) {
+        if (document.querySelector('.shown') !== null) {
             hideAnswer(document.querySelector('.shown'));
         }
         showAnswer(document.getElementById('a2'));
@@ -34,7 +34,7 @@ document.getElementById('q2').addEventListener('click', function () {
 
 document.getElementById('q3').addEventListener('click', function () {
     if (document.getElementById('a3').classList.contains('hidden')) {
-        if (document.querySelector('.shown') != null) {
+        if (document.querySelector('.shown') !== null) {
             hideAnswer(document.querySelector('.shown'));
         }
         showAnswer(document.getElementById('a3'));
@@ -45,7 +45,7 @@ document.getElementById('q3').addEventListener('click', function () {
 
 document.getElementById('q4').addEventListener('click', function () {
     if (document.getElementById('a4').classList.contains('hidden')) {
-        if (document.querySelector('.shown') != null) {
+        if (document.querySelector('.shown') !== null) {
             hideAnswer(document.querySelector('.shown'));
         }
         showAnswer(document.getElementById('a4'));
@@ -56,7 +56,7 @@ document.getElementById('q4').addEventListener('click', function () {
 
 document.getElementById('q5').addEventListener('click', function () {
     if (document.getElementById('a5').classList.contains('hidden')) {
-        if (document.querySelector('.shown') != null) {
+        if (document.querySelector('.shown') !== null) {
             hideAnswer(document.querySelector('.shown'));
         }
         showAnswer(document.getElementById('a5'));
